@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "cstddef": "cpp",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "fstream": "cpp",
+        "vector": "cpp",
+        "string": "cpp",
+        "cstdio": "cpp",
+        "algorithm": "cpp",
+        "type_traits": "cpp"
+    }
+}
