@@ -1,0 +1,83 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+*.dwo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build and Output directories
+build/
+Build/
+build-*/
+bin/
+bin-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Temporary & Editor files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# vcpkg
+vcpkg_installed/
+
+# Test output & Cache
+Testing/
+.cache/
+
+# OS-specific garbage files
+.DS_Store
+.directory
+Thumbs.db
+
+# Ignore all .dat files inside any subdirectory of OutPutData
+#/OutPutData/**/*.dat
+
+# Shell & Batch scripts (if not meant to be tracked)
+#*.sh
+
+# Explicitly keep Makefile
+!Makefile
+!makefile
